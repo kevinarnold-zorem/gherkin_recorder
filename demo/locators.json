@@ -1,0 +1,90 @@
+[
+  {
+    "command": "open",
+    "target": "https://www.marca.com/",
+    "value": "",
+    "locators": ["https://www.marca.com/"]
+  },
+  {
+    "command": "click",
+    "target": "link=Fútbol",
+    "value": "",
+    "locators": [
+      "link=Fútbol",
+      "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Iniciar sesión'])[1]/following::a[1]",
+      "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Suscríbete'])[1]/following::a[2]",
+      "xpath=(.//*[normalize-space(text()) and normalize-space(.)='España'])[1]/preceding::a[1]",
+      "xpath=(.//*[normalize-space(text()) and normalize-space(.)='LALIGA EA Sports'])[1]/preceding::a[1]",
+      "xpath=//*/text()[normalize-space(.)='Fútbol']/parent::*",
+      "xpath=//a[contains(@href, 'https://www.marca.com/futbol.html?intcmp=MENUPROD&s_kw=futbol')]",
+      "xpath=//nav/ul/li/a",
+      "css=a.highlight.active"
+    ]
+  },
+  {
+    "command": "click",
+    "target": "link=Motor",
+    "value": "",
+    "locators": [
+      "link=Motor",
+      "xpath=//a[contains(text(),'Motor')]",
+      "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mundial 2023'])[1]/following::a[1]",
+      "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Equipos'])[1]/following::a[2]",
+      "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Coches'])[1]/preceding::a[1]",
+      "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Fórmula 1'])[1]/preceding::a[1]",
+      "xpath=//*/text()[normalize-space(.)='Motor']/parent::*",
+      "xpath=//a[contains(@href, 'https://www.marca.com/motor.html?intcmp=MENUPROD&s_kw=motor')]",
+      "xpath=//nav/ul/li[3]/a",
+      "css=li.main-tab.main-tab-motor > a.highlight"
+    ]
+  },
+  {
+    "command": "click",
+    "target": "link=Fórmula 1",
+    "value": "",
+    "locators": [
+      "link=Fórmula 1",
+      "xpath=//a[contains(text(),'Fórmula 1')]",
+      "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Resultados'])[1]/following::a[1]",
+      "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Noticias'])[1]/following::a[2]",
+      "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Rallies'])[1]/preceding::a[1]",
+      "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mundial MotoGP'])[1]/preceding::a[2]",
+      "xpath=//*/text()[normalize-space(.)='Fórmula 1']/parent::*",
+      "xpath=//a[contains(@href, 'https://www.marca.com/motor/formula1.html?intcmp=MENUMIGA&s_kw=formula-1')]",
+      "xpath=//ul[2]/li[3]/a",
+      "css=a[title=\"Fórmula 1\"]"
+    ]
+  },
+  {
+    "command": "click",
+    "target": "link=Clasificación pilotos",
+    "value": "",
+    "locators": [
+      "link=Clasificación pilotos",
+      "xpath=//a[contains(text(),'Clasificación pilotos')]",
+      "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Calendario'])[1]/following::a[1]",
+      "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Resultados'])[1]/following::a[2]",
+      "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Clas. por carreras'])[1]/preceding::a[1]",
+      "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Clas. Constructores'])[1]/preceding::a[2]",
+      "xpath=//*/text()[normalize-space(.)='Clasificación pilotos']/parent::*",
+      "xpath=//a[contains(@href, 'https://www.marca.com/motor/formula1/clasificacion.html?intcmp=MENUMIGA&s_kw=clasificacion-pilotos')]",
+      "xpath=//ul[2]/li[4]/a",
+      "css=a[title=\"Clasificación pilotos\"]"
+    ]
+  },
+  {
+    "command": "verifyText",
+    "target": "xpath=//div[@id='contentContainer']/div/div/div",
+    "value": "Clasificación",
+    "locators": [
+      "xpath=//div[@id='contentContainer']/div/div/div",
+      "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Ordenados por:'])[1]/following::div[1]",
+      "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Clasificación pilotos F1'])[2]/following::div[8]",
+      "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nombre'])[1]/preceding::div[1]",
+      "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nacionalidad'])[1]/preceding::div[2]",
+      "xpath=//*/text()[normalize-space(.)='Clasificación']/parent::*",
+      "xpath=//div[3]/div/div/div/div/div/div/div",
+      "css=div.selected.js-f1-clasif-order"
+    ]
+  }
+]

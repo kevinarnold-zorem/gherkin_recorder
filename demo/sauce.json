@@ -1,0 +1,151 @@
+[
+  {
+    "command": "open",
+    "target": "https://www.saucedemo.com/",
+    "value": "",
+    "locators": ["https://www.saucedemo.com/"]
+  },
+  {
+    "command": "click",
+    "target": "id=user-name",
+    "value": "",
+    "locators": [
+      "id=user-name",
+      "name=user-name",
+      "xpath=//input[@id='user-name']",
+      "xpath=//div[@id='login_button_container']/div/form/div/input",
+      "xpath=//input",
+      "css=#user-name"
+    ]
+  },
+  {
+    "command": "type",
+    "target": "id=user-name",
+    "value": "standard_user",
+    "locators": [
+      "id=user-name",
+      "name=user-name",
+      "xpath=//input[@id='user-name']",
+      "xpath=//div[@id='login_button_container']/div/form/div/input",
+      "xpath=//input",
+      "css=#user-name"
+    ]
+  },
+  {
+    "command": "click",
+    "target": "id=password",
+    "value": "",
+    "locators": [
+      "id=password",
+      "name=password",
+      "xpath=//input[@id='password']",
+      "xpath=//div[@id='login_button_container']/div/form/div[2]/input",
+      "xpath=//div[2]/input",
+      "css=#password"
+    ]
+  },
+  {
+    "command": "type",
+    "target": "id=password",
+    "value": "secret_sauce",
+    "locators": [
+      "id=password",
+      "name=password",
+      "xpath=//input[@id='password']",
+      "xpath=//div[@id='login_button_container']/div/form/div[2]/input",
+      "xpath=//div[2]/input",
+      "css=#password"
+    ]
+  },
+  {
+    "command": "click",
+    "target": "id=login-button",
+    "value": "",
+    "locators": [
+      "id=login-button",
+      "name=login-button",
+      "xpath=//input[@id='login-button']",
+      "xpath=//div[@id='login_button_container']/div/form/font/font/input",
+      "xpath=//font/input",
+      "css=#login-button"
+    ]
+  },
+  {
+    "command": "waitForNotVisible",
+    "target": "id=login-button",
+    "value": "",
+    "locators": [
+      "id=login-button",
+      "name=login-button",
+      "xpath=//input[@id='login-button']",
+      "xpath=//div[@id='login_button_container']/div/form/input",
+      "xpath=//form/input",
+      "css=#login-button"
+    ]
+  },
+  {
+    "command": "click",
+    "target": "id=login-button",
+    "value": "",
+    "locators": [
+      "id=login-button",
+      "name=login-button",
+      "xpath=//input[@id='login-button']",
+      "xpath=//div[@id='login_button_container']/div/form/input",
+      "xpath=//form/input",
+      "css=#login-button"
+    ]
+  },
+  {
+    "command": "click",
+    "target": "id=password",
+    "value": "",
+    "locators": [
+      "id=password",
+      "name=password",
+      "xpath=//input[@id='password']",
+      "xpath=//div[@id='login_button_container']/div/form/div[2]/input",
+      "xpath=//div[2]/input",
+      "css=#password"
+    ]
+  },
+  {
+    "command": "click",
+    "target": "id=login-button",
+    "value": "",
+    "locators": [
+      "id=login-button",
+      "name=login-button",
+      "xpath=//input[@id='login-button']",
+      "xpath=//div[@id='login_button_container']/div/form/input",
+      "xpath=//form/input",
+      "css=#login-button"
+    ]
+  },
+  {
+    "command": "scrollToElement",
+    "target": "id=login-button",
+    "value": "",
+    "locators": [
+      "id=login-button",
+      "name=login-button",
+      "xpath=//input[@id='login-button']",
+      "xpath=//div[@id='login_button_container']/div/form/input",
+      "xpath=//form/input",
+      "css=#login-button"
+    ]
+  },
+  {
+    "command": "click",
+    "target": "id=login-button",
+    "value": "",
+    "locators": [
+      "id=login-button",
+      "name=login-button",
+      "xpath=//input[@id='login-button']",
+      "xpath=//div[@id='login_button_container']/div/form/input",
+      "xpath=//form/input",
+      "css=#login-button"
+    ]
+  }
+]

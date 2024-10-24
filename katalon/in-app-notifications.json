@@ -1,0 +1,45 @@
+[
+      {
+      "id": "kr-webinar-test-automation-for-startups-reminder",
+      "type": "new-release",
+      "date": "2021-11-22",
+      "title": "Test Automation for Start-ups: How to Kick-start With Confidence webinar",
+      "content": "Only 1 DAY LEFT until our <a href='https://www.katalon.com/webinars/test-automation-start-ups/?utm_source=Katalon&utm_medium=in_app&utm_campaign=kr_webinar_Nov'>Test Automation for Start-ups: How to Kick-start With Confidence</a> webinar. Save the date and join the live discussion with Recorder's experts!"
+    },
+      {
+      "id": "kr-webinar-test-automation-for-startups",
+      "type": "new-release",
+      "date": "2021-11-16",
+      "title": "Test Automation for Start-ups: How to Kick-start With Confidence webinar",
+      "content": "Tune in to our <a href='https://www.katalon.com/webinars/test-automation-start-ups/?utm_source=Katalon&utm_medium=in_app&utm_campaign=kr_webinar_Nov'>Test Automation for Start-ups: How to Kick-start With Confidence webinar</a> on November 23, 10 AM (EDT) to learn the hassle-free path to test automation."
+    },
+      {
+      "id": "kr-user-research-CTA",
+      "type": "new-release",
+      "date": "2021-10-11",
+      "title": "Calling for all Zorem Recorder users",
+      "content": "We hope your experience with Zorem Recorder has been well. To help us understand and make Zorem Recorder useful to all users, please fill in this <a href='https://www.research.net/r/LH567SF' target='_blank'>2-minute survey</a> to let us know why you chose Recorder and any cool perks/upgrades you want to see in the future!"
+    },
+      {
+      "id": "kr-on-firefox-in-progress",
+      "type": "new-content",
+      "date": "2021-09-27",
+      "title": "If you are using KR on Firefox...",
+      "content": "We are working on making the new version of KR compliant with Firefox Web Store. In the mean time please use KR on Chrome for the latest updates."
+    },
+      {
+      "id": "kr-5.5.0-video",
+      "type": "new-content",
+      "date": "2021-08-24",
+      "title": "Zorem Recorder 5.5.0 demo is available.",
+      "content": "The demo for KR 5.5.0 with self-healing, command-line execution and Import from Selenium IDE is <a href='https://youtu.be/ZmrqojStcpw' target='_blank'>availiable here.</a>"
+    },
+    {
+      "id": "kr-sign-up",
+      "type": "new-release",
+      "date": "2021-09-01",
+      "title": "New users can now sign up!",
+      "content": "The <a href='https://docs.katalon.com/katalon-recorder/docs/release-notes.html' target='_blank'>new release</a> contains many bug fixes, one of them prevented new users from signing up in-app. If you were not able to sign up, please try again!"
+    }
+  ]
+  
