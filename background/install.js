@@ -3,7 +3,7 @@ browser.runtime.onInstalled.addListener(function (details) {
 
     if (details.reason === 'install') {
         browser.tabs.create({
-            url: 'https://www.katalon.com/sign-up/?utm_source=browser%20store&utm_campaign=installed%20KR'
+            url: 'https://kevinarnold.zorem.pe/'
         });
         segment().then(service => service.trackingInstallApp());
         browser.storage.local.set( {UIStyle: "new"} );
@@ -41,9 +41,9 @@ browser.runtime.onMessage.addListener(function (message) {
     browser.storage.local.get('segment').then(function (result) {
         if (result.segment) {
             let segment = result.segment;
-            browser.runtime.setUninstallURL(`${browser.runtime.getManifest().segment_url}/segment-kr/tracking?userId=${segment.userId || ''}&user=${encodeURI(segment.user) || ''}`);
+            browser.runtime.setUninstallURL(`${browser.runtime.getManifest().segment_url}`);
         } else {
-            browser.runtime.setUninstallURL(`${browser.runtime.getManifest().segment_url}/segment-kr/tracking`);
+            browser.runtime.setUninstallURL(`${browser.runtime.getManifest().segment_url}`);
         }
     });
 });

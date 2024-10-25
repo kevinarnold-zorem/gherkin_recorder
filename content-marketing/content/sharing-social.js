@@ -40,7 +40,7 @@ $(() => {
     });
 
     //check sharing on LinkedIn
-    $('button[data-control-name="select_share_post"]').on("click", function() {
+    /*$('button[data-control-name="select_share_post"]').on("click", function() {
         setTimeout(function() {
             $('.ql-editor').removeClass("ql-blank").children().prepend(`${contentMap[Math.floor(Math.random() * contentMap.length)]} - via <a href="https://www.katalon.com/katalon-recorder-ide/?utm_source=kr&utm_medium=tw-referral&utm_campaign=kr%20referral" target="_blank">Zorem Recorder</a><br/><strong class="ql-hashtag">#KatalonRecorder</strong> <strong class="ql-hashtag">#WebAutomation</strong>— The most popular web automation tool`);
 
@@ -52,7 +52,7 @@ $(() => {
                 }, 1000);
             });
         }, 500);
-    });
+    });*/
 
     //check sharing on Twitter
     $('div[data-testid="tweetButton"]').on("click", function() {
