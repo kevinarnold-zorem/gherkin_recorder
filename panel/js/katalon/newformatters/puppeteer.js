@@ -260,10 +260,55 @@ const gherkin = function(commands) {
                 break;
             case 'type':
                 gherkinContent += `    Y relleno el elemento '${targetValue}' con el valor '${value}'\n`;
-                    break;
+                break;
             case 'scrolltoelement':
                 gherkinContent += `    Y desplazo la página al elemento '${targetValue}'\n`;
-                        break;                
+                break;
+            case 'verifytitle':
+                gherkinContent += `    Entonces valido que el elemento '${targetValue}' tiene el title '${value}'\n`;
+                break;      
+            case 'verifyvalue':
+                gherkinContent += `    Entonces valido que el elemento '${targetValue}' tiene el valor '${value}'\n`;
+                break;
+            case 'asserttext':
+                gherkinContent += `    Entonces verifico que el elemento '${targetValue}' contiene el texto '${value}'\n`;
+                break;   
+            case 'asserttitle':
+                gherkinContent += `    Entonces verifico que el elemento '${targetValue}' contiene el title '${value}'\n`;
+                break;
+            case 'assertvalue':
+                gherkinContent += `    Entonces verifico que el elemento '${targetValue}' contiene el valor '${value}'\n`;
+                break;
+            case 'storetext':
+                gherkinContent += `    Entonces almaceno el texto del elemento '${targetValue}' en la variable '${value}'\n`;
+                break;
+            case 'storetitle':
+                gherkinContent += `    Entonces almaceno el titulo del elemento '${targetValue}' en la variable '${value}'\n`;
+                break;     
+            case 'storevalue':
+                gherkinContent += `    Entonces almaceno el valor del elemento '${targetValue}' en la variable '${value}'\n`;
+                break;
+            case 'waitforelementpresent':
+                gherkinContent += `    Y espero que el elemento '${targetValue}' este presente en el DOM\n`;
+                break;
+            case 'waitforelementnotpresent':
+                gherkinContent += `    Y espero que el elemento '${targetValue}' no este presente en el DOM\n`;
+                break;
+            case 'waitfortextpresent':
+                gherkinContent += `    Y espero hasta que el texto '${value}' esté presente en el elemento '${targetValue}'\n`;
+                break;
+            case 'waitfortextnotpresent':
+                gherkinContent += `    Y espero hasta que el texto '${value}' ya no esté presente en el elemento '${targetValue}'\n`;
+                break;
+            case 'waitforvalue':
+                gherkinContent += `    Y espero hasta que el elemento '${targetValue}' tenga el valor '${value}'\n`;
+                break;
+            case 'waitfornotvalue':
+                gherkinContent += `    Y espero hasta que el elemento '${targetValue}' ya no tenga el valor '${value}'\n`;
+                break;
+            case 'waitfornotvisible':
+                gherkinContent += `    Y espero hasta que el elemento '${targetValue}' ya no sea visible\n`;
+                break;                           
             default:
                 gherkinContent += `    # Comando no soportado: ${command} con target '${target}' y valor '${value}'\n`;
                 break;
